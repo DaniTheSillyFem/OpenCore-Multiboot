@@ -5,6 +5,9 @@ on:
       - gh-pages
   workflow_dispatch:
   pull_request:
+
+permissions: write-all
+  
 jobs:
   build:
     name: Build and Deploy
