@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
   pull_request:
 
-permissions: write-all
+permissions:
+  contents: write
   
 jobs:
   build:
